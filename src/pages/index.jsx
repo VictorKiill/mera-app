@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div></div>
         <div></div>
-        <div className="flex items-center justify-evenly gap-16 mb-10 lg:justify-center lg:gap-[8rem]">
+        <div className="flex items-center justify-around mb-10 lg:justify-center lg:gap-20">
           <Button text="Produtos" route="/produtos" />
           <Button text="Sobre Nós" route="/sobre" />
         </div>
