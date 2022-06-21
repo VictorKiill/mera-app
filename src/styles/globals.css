@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(150.14deg, #4CC1CB 38.56%, #4CC1CB 56.71%, #F8F8F6 56.93%, #F8F8F6 72.81%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#__next {
+  height: 100%;
+}
