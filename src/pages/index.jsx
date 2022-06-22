@@ -6,23 +6,16 @@ import Button from "../components/button";
 export default function Home() {
   return (
     <Layout>
-      <div className="md:grid grid-cols-[auto_1fr] grid-rows-[auto_1fr] flex flex-col items-center justify-around">
-        <div className="md:pt-8 md:pl-20">
+      <div className="flex flex-col items-center justify-center">
+        <div className="p-10">
           <Image
             src={Logo}
-            height={300}
-            width={300}
-            layout='fixed'
+            height={450}
+            width={450}
             alt="Logo"
-            className="rounded-full"
+            className="rounded-full animate-entering"
             priority
           />
-        </div>
-        <div></div>
-        <div></div>
-        <div className="flex items-center justify-around mb-10 lg:justify-center lg:gap-20">
-          <Button text="Produtos" route="/produtos" />
-          <Button text="Sobre Nós" route="/sobre" />
         </div>
       </div>
     </Layout>
