@@ -8,8 +8,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(150.14deg, #4CC1CB 38.56%, #4CC1CB 56.71%, #F8F8F6 56.93%, #F8F8F6 72.81%);
-  background-repeat: no-repeat;
+  background-color: #F8F8F6;
+  /* conic-gradient(from 60deg at 50% 70%, #129539 0deg, #129539 40deg, transparent 40deg, transparent 200deg, #4CC1CB 200deg, #4CC1CB 240deg, #33AE8C 240deg) no-repeat */
+  background: linear-gradient(150deg, #4CC1CB 0%, #4CC1CB 50%, transparent 50%, transparent 100%) no-repeat,
+    linear-gradient(150deg, #3EB6A7 0%, #3EB6A7 50%, transparent 50%, transparent 100%) no-repeat,
+    linear-gradient(165deg, #37B195 0%, #37B195 50%, transparent 50%, transparent 100%) no-repeat,
+    linear-gradient(180deg, #2FAB82 0%, #2FAB82 50%, transparent 50%, transparent 100%) no-repeat,
+    linear-gradient(195deg, #21A05E 0%, #21A05E 50%, transparent 50%, transparent 100%) no-repeat,
+    linear-gradient(210deg, #129539 0%, #129539 50%, transparent 50%, transparent 100%) no-repeat;
   height: 100vh;
 }
 
