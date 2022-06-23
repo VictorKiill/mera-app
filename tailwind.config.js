@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     colors: {
@@ -15,12 +15,17 @@ module.exports = {
     keyframes: {
       entering: {
         '0%': { transform: 'scale(1) translateY(0%)' },
-        '50%': { transform: 'scale(0.3) translateY(0%)' },
-        '100%': { transform: 'scale(0.3) translateY(-110%)' },
+        '50%': { transform: 'scale(0.35) translateY(0%)' },
+        '100%': { transform: 'scale(0.35) translateY(-90%)' },
+      },
+      fadeIn: {
+        '0%': { opacity: '0' },
+        '100%': { opacity: '1' }
       }
     },
     animation: {
-      entering: 'entering 2s ease-in-out 2s forwards'
+      entering: 'entering 2s ease-in-out 2s forwards',
+      fadeIn: 'fadeIn 1.5s ease-in-out 3s forwards'
     },
     extend: {},
   },
