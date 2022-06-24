@@ -17,7 +17,7 @@ export default function Home() {
             priority
           />
         </div>
-        <div className="bg-whithish absolute max-w-xl bottom-[15%] -z-10 mx-auto p-3 opacity-0 animate-fadeIn"><Carousel /></div>
+        <div className="bg-whithish absolute max-w-xl -z-10 mx-auto p-3 opacity-0 animate-fadeIn"><Carousel /></div>
       </div>
     </Layout>
   )
