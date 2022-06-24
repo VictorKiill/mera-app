@@ -16,9 +16,9 @@ body {
     linear-gradient(180deg, #2FAB82 0%, #2FAB82 50%, transparent 50%, transparent 100%) no-repeat,
     linear-gradient(195deg, #21A05E 0%, #21A05E 50%, transparent 50%, transparent 100%) no-repeat,
     linear-gradient(210deg, #129539 0%, #129539 50%, transparent 50%, transparent 100%) no-repeat;
-  height: 100%;
+  min-height: 100vh;
 }
 
 #__next {
-  height: 100%;
+  min-height: 100vh;
 }
