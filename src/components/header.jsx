@@ -14,6 +14,7 @@ export default function Header() {
                     width={244}
                     alt="Logo"
                     className="cursor-pointer"
+                    priority
                 />
             </Link>
             <Button route='/sobre' text='Sobre Nós' />

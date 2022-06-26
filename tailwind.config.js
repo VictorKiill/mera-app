@@ -21,11 +21,20 @@ module.exports = {
       fadeIn: {
         '0%': { opacity: '0' },
         '100%': { opacity: '1' }
+      },
+      spin: {
+        from: {
+          transform: 'rotate(0deg)'
+        },
+        to: {
+          transform: 'rotate(360deg)'
+        }
       }
     },
     animation: {
       entering: 'entering 2s ease-in-out 2s forwards',
-      fadeIn: 'fadeIn 1.5s ease-in-out 3s forwards'
+      fadeIn: 'fadeIn 1.5s ease-in-out 3s forwards',
+      spin: 'spin 1s linear infinite'
     },
     extend: {},
   },

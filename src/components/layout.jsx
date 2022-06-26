@@ -4,10 +4,16 @@ import Head from 'next/head'
 
 export default function Layout({ children }) {
     return (
-        <div className="grid grid-rows-[5rem_1fr_5rem] min-h-screen" >
-            <Header />
-            {children}
-            <Footer />
-        </div>
+        <>
+            <Head>
+                <title>Mera Cosméticos</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
+            <div className="grid grid-rows-[5rem_1fr_5rem] min-h-screen" >
+                <Header />
+                {children}
+                <Footer />
+            </div>
+        </>
     )
 }
