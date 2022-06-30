@@ -21,7 +21,7 @@ export default function Product() {
     if (isLoading) return (
         <Layout>
             <div className="flex justify-center items-center">
-                <div className="animate-spin bg-whithish p-8 border-4 w-40 h-40 rounded-full">
+                <div className="animate-spin bg-whithish p-8 border-4 border-whithish w-40 h-40 rounded-full">
                     <img src="/imgs/LogoM.png" alt="Loading" />
                 </div>
             </div>
