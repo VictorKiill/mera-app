@@ -13,7 +13,7 @@ export default function Sobre() {
                     <ul>
                         <li><span className="font-semibold">Aryellen Soares</span> - Diretora de Marketing Digital</li>
                         <li><span className="font-semibold">Eduarda Beatriz</span> - Diretora de Pesquisa</li>
-                        <li><span className="font-semibold">Laiza Pereira</span> - Acessora de Marketing</li>
+                        <li><span className="font-semibold">Laiza Pereira</span> - Assessora de Marketing</li>
                         <li><span className="font-semibold">Maria Luísa</span> - Diretora de Produtoção</li>
                         <li><span className="font-semibold">Sara Coelho</span> - Designer Gráfica</li>
                         <li><span className="font-semibold">Victor Kiill</span> - Chefe de TI</li>
