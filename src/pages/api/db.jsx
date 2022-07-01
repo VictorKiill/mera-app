@@ -10,7 +10,7 @@ export default function handler(req, res) {
                 'Ação antioxidante',
                 'Ação anti-inflamatória',
                 'Ação cicatrizante',
-                'Ação ant-bacteriana',
+                'Ação antibacteriana',
                 'Auxilia no tratamento da pele oleosa',
                 'Retarda o crescimento dos pelos',
                 'Macies e brilho à pele',
