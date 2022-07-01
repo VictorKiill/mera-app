@@ -14,7 +14,7 @@ export default function Sobre() {
                         <li><span className="font-semibold">Aryellen Soares</span> - Diretora de Marketing Digital</li>
                         <li><span className="font-semibold">Eduarda Beatriz</span> - Diretora de Pesquisa</li>
                         <li><span className="font-semibold">Laiza Pereira</span> - Assessora de Marketing</li>
-                        <li><span className="font-semibold">Maria Luísa</span> - Diretora de Produtoção</li>
+                        <li><span className="font-semibold">Maria Luísa</span> - Diretora de Produção</li>
                         <li><span className="font-semibold">Sara Coelho</span> - Designer Gráfica</li>
                         <li><span className="font-semibold">Victor Kiill</span> - Chefe de TI</li>
                     </ul>
@@ -31,9 +31,11 @@ export default function Sobre() {
                     <h2 className="text-center text-2xl font-bold mb-2">Valores</h2>
                     <ul className="list-disc">
                         <li>Sustentabilidade</li>
+                        <li>Diversidade</li>
+                        <li>Valorização das pessoas e das relações</li>
+                        <li>Responsabilidade com os fatos</li>
                         <li>Ética</li>
                         <li>Saúde</li>
-                        <li>Responsabilidade com os fatos</li>
                     </ul>
                 </div>
             </div>
