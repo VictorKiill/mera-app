@@ -25,7 +25,7 @@ export default function Sobre() {
                 </div>
                 <div className="bg-whithish p-3 rounded-lg mb-3">
                     <h2 className="text-center text-2xl font-bold mb-2">Visão</h2>
-                    <p className="text-center">Garantir a qualidade de nossos produtos</p>
+                    <p className="text-center">Ser reconhecida no mercado como uma marca de qualidade e referência na saboaria.</p>
                 </div>
                 <div className="bg-whithish p-3 rounded-lg mb-3 flex flex-col items-center">
                     <h2 className="text-center text-2xl font-bold mb-2">Valores</h2>
