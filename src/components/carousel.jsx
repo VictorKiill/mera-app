@@ -13,7 +13,7 @@ export default function NextJsCarousel() {
         <div>
             <Carousel autoPlay infiniteLoop showThumbs={false} interval={2000} showStatus={false} onClickItem={onClickProduct}>
                 <div>
-                    <img src="/imgs/sabonete1.png" alt="Sabonete1" />
+                    <img src="/imgs/sabonete1.png" alt="Sabonete de Açafrão" />
                     <p className="legend">Sabonete de Açafrão</p>
                 </div>
                 <div>
