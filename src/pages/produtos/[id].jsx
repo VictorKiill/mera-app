@@ -45,6 +45,7 @@ export default function ProductPage() {
     return (
         <Layout>
             <Product
+                id={id}
                 image={product.image}
                 alt={product.alt}
                 legenda={product.legenda}

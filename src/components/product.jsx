@@ -17,13 +17,13 @@ export default function Product(props) {
                     <h3 className="text-xl">Benefícios:</h3>
                     <ul className="list-disc mb-5">
                         {props.benefits.map(element => {
-                            return (<li className="ml-7">{element}</li>)
+                            return (<li key={element} className="ml-7">{element}</li>)
                         })}
                     </ul>
                     <h3 className="text-xl">Contraindicado à pessoas:</h3>
                     <ul className="list-disc">
                         {props.counters.length !== 0 ? props.counters.map(element => {
-                            return (<li className="ml-7">{element}</li>)
+                            return (<li key={element} className="ml-7">{element}</li>)
                         }) : 'Nenhuma'}
                     </ul>
                 </div>
