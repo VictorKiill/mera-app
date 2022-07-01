@@ -2,8 +2,8 @@ export default function handler(req, res) {
     res.status(200).json({
         1: {
             image: "/imgs/sabonete1.png",
-            alt: "Sabonete de Açafrão",
-            legenda: "Sabonete de Açafrão",
+            alt: "Sabonete Mera Bela",
+            legenda: "Sabonete Mera Bela",
             price: 'R$6,99',
             description: 'Sabonete feito a base de glicerina e açafão, com um aroma doce e muitos benefícios para pele.',
             benefits: [
